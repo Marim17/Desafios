@@ -22,7 +22,7 @@ public class Desafio2 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("Digite o número que gostaria de saber a quantidade de peças: ");
+        System.out.println("Digite um número: ");
         int n = leitor.nextInt();
         System.out.println((n + 1) * (n + 2) / 2);
 
